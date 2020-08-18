@@ -31,3 +31,14 @@ plt.ylabel("yR (volt)")
 plt.grid(True)
 plt.show()
 
+
+#Second graph 
+x = np.array([1, 0.909,	0.833, 0.714,	0.598, 0.5,	0.4, 0.333,	0.25,	0.2, 0.166])
+y = np.array([17.2,	15.6,	14.3,	12.3,	10.3,	8.6,	6.9,	5.7,	4.3,	3.4,	2.9])
+
+plt.plot(x, y)
+plt.xlabel("1/f (ms)")
+plt.ylabel("D (cm)")
+plt.grid(True)
+plt.show()
+print(slope) #This gets you the slope
